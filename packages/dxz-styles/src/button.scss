@@ -1,0 +1,15 @@
+@import "../common/mixins/mixins.scss";
+
+@include b(button){
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: 400;
+  border: 1px solid;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  border-color: #606266;
+}

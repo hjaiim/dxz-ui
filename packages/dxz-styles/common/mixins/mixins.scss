@@ -1,0 +1,14 @@
+
+//config.scss
+$namespace: 'dxz';
+$element-separator: '__';
+$modifier-separator: '--';
+$state-prefix: 'is-';
+
+// BEM
+@mixin b($block) {
+    $B: $namespace+'-'+$block !global;
+    .#{$B} {
+      @content;
+    }
+  }
