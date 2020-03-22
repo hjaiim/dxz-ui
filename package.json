@@ -7,7 +7,8 @@
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint",
         "lib": "vue-cli-service build --target lib --dest lib packages/index.js",
-        "new": "node scripts/new_components.js"
+        "new": "node scripts/new_components.js",
+        "git":"sh scripts/git-release.sh"
     },
     "dependencies": {
         "core-js": "^3.6.4",
